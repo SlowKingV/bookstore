@@ -1,10 +1,12 @@
 import PropTypes from 'prop-types';
 
+import './styles/Book.css';
+
 const Book = ({ title, author }) => (
   <>
-    <h2>{title}</h2>
+    <h2 className="book-title">{title}</h2>
     <em>{author}</em>
-    <button type="button">Remove</button>
+    <button className="remove-button" type="button">Remove</button>
   </>
 );
 

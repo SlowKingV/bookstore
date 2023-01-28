@@ -1,6 +1,8 @@
 import Book from './components/Book';
 import Form from './components/Form';
 
+import './styles/Books.css';
+
 const Books = () => (
   <div className="section-wrapper">
     <ul className="books-wrapper">

@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import Navigation from './components/Navigation';
 import Books from './Books';
+import Categories from './Categories';
 
 const App = () => (
   <>
@@ -9,7 +10,7 @@ const App = () => (
 
     <Routes>
       <Route path="/" element={<Books />} />
-      <Route path="/categories" element={<h2>This is the Categories page</h2>} />
+      <Route path="/categories" element={<Categories />} />
       <Route path="*" element={<h2>404: Page not found</h2>} />
     </Routes>
   </>

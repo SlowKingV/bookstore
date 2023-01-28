@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 
+import './styles/Navigation.css';
+
 const Navigation = () => (
   <>
-    <nav>
+    <nav className="nav-bar">
       <h1 className="head-title">Bookstore CMS</h1>
       <ul className="nav-links">
         <li className="nav-link"><Link to="/">BOOKS</Link></li>

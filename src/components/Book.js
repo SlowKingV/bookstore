@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Book = ({ title, author }) => (
   <>
-    <h3>{title}</h3>
+    <h2>{title}</h2>
     <em>{author}</em>
     <button type="button">Remove</button>
   </>

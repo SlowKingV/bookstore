@@ -1,0 +1,17 @@
+.nav-bar {
+  align-items: baseline;
+  display: flex;
+  outline: var(--outline);
+}
+
+.head-title {
+  margin-inline: 1em;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  padding: 0.6em;
+}
